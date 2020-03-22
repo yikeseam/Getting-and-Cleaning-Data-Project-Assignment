@@ -41,14 +41,12 @@ This also makes easier for reference and completion of the rest of Objectives.
 4. Read features.txt and assign description variable name to columns.
 
 5. Handle train datasets.
-
 5.1 Read subject_train.txt and assign description variable name to columns.
 5.2 Read y_train.txt and assign description variable name to columns.
 5.3 Read X_train.txt and assign meaningful column names as in feature_name.
 5.4 Bind all columns for subject_train, ytrain_actvid and xtrain_data.
 
 6. Handle test datasets.
-
 6.1 Read subject_test.txt and assign meaningful column names as in feature_name.
 6.2 Read y_test.txt and assign meaningful column names as in feature_name.
 6.3 Read X_test.txt and assign meaningful column names as in feature_name.
