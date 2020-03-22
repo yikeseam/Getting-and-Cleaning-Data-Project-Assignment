@@ -30,7 +30,7 @@ The run_analysis.R does the following:
 # Assumption
 Current working director is "C:/Users/.../Documents/". where ... refers to username of the workstation login user.
 
-# rocess Flows
+# Process Flows
 1. Download data zip file to local folder and unzipped to folder "./data/UCI HAR Dataset" outside RStudio.
 2. Start process in RStudio by loading dplyr package , as some R scripts use dplyr approach.
 
