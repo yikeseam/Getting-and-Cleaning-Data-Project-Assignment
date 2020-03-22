@@ -17,7 +17,7 @@ The project output includes the following items and to keep in a Github reposito
 1. Tidy Dataset in txt format
 2. CodeBook.md that describes the variables and related information of the Tidy Dataset.
 3. README.md that explains the analysis files is clear and understandable.
-4. Script called run_analysis.R 
+4. R Script called run_analysis.R that perform the steps and achieve the project assignment objectives.
 
 # Objectives of R Script "run_analysis.R"
 The run_analysis.R does the following:
@@ -28,24 +28,24 @@ The run_analysis.R does the following:
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 # Assumption
-Current working director is "C:/Users/.../Documents/". where ... refers to username of the workstation login user.
+Current working directory is "C:/Users/.../Documents/". where ... refers to username of the workstation login user.
 
 # Process Flows
 1. Download data zip file to local folder and unzipped to folder "./data/UCI HAR Dataset" outside RStudio.
 2. Start process in RStudio by loading dplyr package , as some R scripts use dplyr approach.
 
 Note: Steps 3 to 7 perform Reading datasets, follow by Assigning descriptive variable names. By doing so, the steps address both Objective 1 (Merging data sets), and Objectvie 4 (Label data sets with descriptive variable names).
-This makes easier for reference and completion of the rest of Objectives.
+This also makes easier for reference and completion of the rest of Objectives.
 
 3. Read activity_label.txt and assign description variable name to columns.
 4. Read features.txt and assign description variable name to columns.
 5. Handle train datasets
-   5.1 Read subject_train.txt and assign description variable name to columns.
-   5.2 Read y_train.txt and assign description variable name to columns.
-   5.3 Read X_train.txt and assign meaningful column names as in feature_name
-   5.4 Bind all columns for subject_train, ytrain_actvid and xtrain_data
+5.1 Read subject_train.txt and assign description variable name to columns.
+5.2 Read y_train.txt and assign description variable name to columns.
+5.3 Read X_train.txt and assign meaningful column names as in feature_name
+5.4 Bind all columns for subject_train, ytrain_actvid and xtrain_data
 6. Handle test datasets
-   6.1 Read subject_test.txt and assign meaningful column names as in feature_name
+6.1 Read subject_test.txt and assign meaningful column names as in feature_name
    6.2 Read y_test.txt and assign meaningful column names as in feature_name
    6.3 Read X_test.txt and assign meaningful column names as in feature_name
    6.4 Bind all columns for subject_test, ytest_label and xtest_data
