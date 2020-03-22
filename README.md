@@ -44,23 +44,17 @@ This also makes easier for reference and completion of the rest of Objectives.
 
 5. Handle train datasets.
 
-5.1 Read subject_train.txt and assign description variable name to columns.
-
-5.2 Read y_train.txt and assign description variable name to columns.
-
-5.3 Read X_train.txt and assign meaningful column names as in feature_name.
-
-5.4 Bind all columns for subject_train, ytrain_actvid and xtrain_data.
+  - 5.1 Read subject_train.txt and assign description variable name to columns.
+  - 5.2 Read y_train.txt and assign description variable name to columns.
+  - 5.3 Read X_train.txt and assign meaningful column names as in feature_name.
+  - 5.4 Bind all columns for subject_train, ytrain_actvid and xtrain_data.
 
 6. Handle test datasets.
 
-6.1 Read subject_test.txt and assign meaningful column names as in feature_name.
-
-6.2 Read y_test.txt and assign meaningful column names as in feature_name.
-
-6.3 Read X_test.txt and assign meaningful column names as in feature_name.
-
-6.4 Bind all columns for subject_test, ytest_label and xtest_data.
+  - 6.1 Read subject_test.txt and assign meaningful column names as in feature_name.
+  - 6.2 Read y_test.txt and assign meaningful column names as in feature_name.
+  - 6.3 Read X_test.txt and assign meaningful column names as in feature_name.
+  - 6.4 Bind all columns for subject_test, ytest_label and xtest_data.
 
 7. Merge both binded train and test data sets.
 
@@ -70,9 +64,8 @@ This also makes easier for reference and completion of the rest of Objectives.
 
 10. Objective 5 - Create tidy data set with average of each variable for each activity and each subject.
 
-10.1 Since there is already "activity_name" in the dataset, "activity_id" is somehow duplicated and no necessary, hence removed it.
-
-10.2 Write tidy dataset to tidy_dataset.txt file.
+  - 10.1 Since there is already "activity_name" in the dataset, "activity_id" is somehow duplicated and no necessary, hence removed it.
+  - 10.2 Write tidy dataset to tidy_dataset.txt file.
 
 # Tidy Dataset
 The R Scripts "run_analysis.R" generates a tidy dataset that meets the principles (Hadley 2014) of: 
