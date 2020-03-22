@@ -117,6 +117,6 @@ Information for Variables 3 to 81 above
 - mean() : Mean value
 - std() : Standard deviation
 
-
-*** Refer to README.md for process flows that generated the tidy dataset.
+# Process flows that derive the Tidy Dataset
+Refer to README.md, Process Flows section
 
